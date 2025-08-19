@@ -21,8 +21,14 @@ System.out.println("Grand total of the items:");
 System.out.println(Math.round(Grand_total));
 if (Grand_total>300){
 float dis = 0.20f;
-System.out.println("Discounted price:" + Math.round(Grand_total*dis));
+System.out.println("The discounted price is: "+ Math.round(Grand_total*dis));}
+}
+}
+o/p
+Total cost of tomato: 180
+Total cost of rice: 91.0
+Total cost of onion: 100
+Grand total of the items:
+371
+The discounted price is: 74 
 
-}
-    }
-}
