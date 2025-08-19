@@ -1,0 +1,28 @@
+class Main {
+    public static void main(String[] args) {
+        
+        int tomato_price = 36;
+        float rice_price = 45.50f;
+        int onion_price = 20;
+    
+    int tomato_quantity = 5;
+    int rice_quantity = 2;
+    int onion_quantity = 5;
+    
+System.out.println("Total cost of tomato: " + tomato_price*tomato_quantity);
+System.out.println("Total cost of rice: "  + rice_price* rice_quantity);
+System.out.println("Total cost of onion: " + onion_price*onion_quantity);
+int tomato_total=tomato_price*tomato_quantity;
+float rice_total=rice_price* rice_quantity;
+int onion_total=onion_price*onion_quantity;
+float Grand_total=tomato_total+rice_total+onion_total;
+
+System.out.println("Grand total of the items:");
+System.out.println(Math.round(Grand_total));
+if (Grand_total>300){
+float dis = 0.20f;
+System.out.println("Discounted price:" + Math.round(Grand_total*dis));
+
+}
+    }
+}
