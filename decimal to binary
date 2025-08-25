@@ -1,0 +1,19 @@
+public class DecimalToBinary {
+    public static void main(String[] args) {
+        int decimal = 42;
+        String binary = "";
+
+        int num = decimal;
+
+        while (num > 0) {
+            binary = (num % 2) + binary;
+            num = num / 2;
+        }
+
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Binary: " + binary);
+    }
+}
+o/p
+Decimal: 42
+Binary: 101010
