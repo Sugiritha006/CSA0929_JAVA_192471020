@@ -1,0 +1,19 @@
+public class DecimalToOctal {
+    public static void main(String[] args) {
+        int decimal = 83; r
+        String octal = "";
+
+        int num = decimal;
+
+        while (num > 0) {
+            octal = (num % 8) + octal;
+            num = num / 8;
+        }
+
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Octal: " + octal);
+    }
+}
+o/p
+Decimal: 83
+Octal: 123
